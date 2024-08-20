@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Não é associado? Faça seu cadastro</h1>
+            <form action="">
+                <div class="campos">
+                    <label for=nome> Nome Completo</label>
+                    <input name="nome" id="nome" type="text">
+
+                    <label for="cpf">CPF</label>
+                    <input name="cpf" id="cpf" type="text">
+
+                    <label for="email">E-mail</label>
+                    <input name="email" id="email" type="email">
+
+                    <label for="website">WebSite</label>
+                    <input name="website" id="website" type="text">
+
+                    <label for="endereco">Endereço</label>
+                    <input name="endereco" id="endereco" type="text">
+
+                    <label for="bairro">Bairro</label>
+                    <input name="bairro" id="bairro" type="text">
+
+                    <label for="cidade">Cidade</label>
+                    <input name="cidade" id="cidade" type="text">
+
+                    <label for="cep">CEP</label>
+                    <input name="cep" id="cep" type="text">
+
+                    <label for="uf">UF</label>
+                    <select name="uf" id="uf">
+                        <option value="Rondônia">RO</option>
+                        <option value="Acre">AC</option>
+                        <option value="Amazonas">AM</option>
+                        <option value="Roraima">RR</option>
+                        <option value="Pará">PA</option>
+                        <option value="Amapá">AP</option>
+                        <option value="Tocantins">TO</option>
+                        <option value="Maranhão">MA</option>
+                        <option value="Piauí">PI</option>
+                        <option value="Ceará">CE</option>
+                        <option value="Rio Grande do Norte">RN</option>
+                        <option value="Paraíba">PB</option>
+                        <option value="Pernambuco">PE</option>
+                        <option value="Alagoas">AL</option>
+                        <option value="Sergipe">SE</option>
+                        <option value="Bahia">BA</option>
+                        <option value="Minas Gerais">MG</option>
+                        <option value="Espírito Santo">ES</option>
+                        <option value="Rio de Janeiro">RJ</option>
+                        <option value="São Paulo">SP</option>
+                        <option value="Paraná">PR</option>
+                        <option value="Santa Catarina">SC</option>
+                        <option value="Rio Grande do Sul">RS</option>
+                        <option value="Mato Grosso do Sul">MS</option>
+                        <option value="Mato Grosso">MT</option>
+                        <option value="Goiás">GO</option>
+                        <option value="Distrito Federal">DF</option>
+                    </select>
+
+
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+                    <label for="birthday">Data de Nascimento</label>
+                    <input type="date" id="birthday" name="birthday">
+
+                </div>
+                <div class="baixo">
+                    <label for="sexo">Sexo</label>
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="sexo">M</label><br>
+                    <input type="radio" id="feminino" name="sexo" value="feminino">
+                    <label for="sexo">F</label><br>
+                    <div class="celu">
+                        <label for="phone">Celular</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div>
+
+                    <label for="estcivil">Est.Civil</label>
+                    <select name="estcivil" id="estcivil">
+                        <option value="solteiro">Solteiro</option>
+                        <option value="uniestavel">União Estável</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                        <option value="viuvo">Viuvo(a)</option>
+                    </select>
+                    <div class="campos2">
+                        <label for="login">Login</label><br>
+                        <input type="text" id="login" name="login">
+
+                        <label for="senha">Senha:</label>
+                        <input type="senha" id="senha" name="senha">
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h4>Deseja receber informações sobre os seguintes assuntos abaixos:</h4>
+
+                    <input type="checkbox" id="notif1" name="notif1" value="Tecnologia">
+                    <label for="notif1"> Tecnologia </label>
+
+                    <input type="checkbox" id="notif2" name="notif2" value="Esportes">
+                    <label for="notif2"> Esportes </label>
+
+                    <input type="checkbox" id="notif3" name="notif3" value="Automóveis">
+                    <label for="notif3"> Automóveis </label>
+
+                    <input type="checkbox" id="notif4" name="notif4" value="Culinária">
+                    <label for="notif4"> Culinária </label>
+
+                    <input type="checkbox" id="notif5" name="notif5" value="Política">
+                    <label for="notif5"> Política </label>
+
+                    <input type="checkbox" id="notif6" name="notif6" value="Policial">
+                    <label for="notif6"> Policial </label>
+
+                    <input type="checkbox" id="notif7" name="notif7" value="Tempo">
+                    <label for="notif7"> Tempo </label>
+
+                    <input type="checkbox" id="notif8" name="notif8" value="Cultura">
+                    <label for="notif8"> Cultura </label>
+
+                    <input type="checkbox" id="notif9" name="notif9" value="Economia">
+                    <label for="notif9"> Economia </label>
+
+                    <input type="checkbox" id="notif10" name="notif10" value="Jogos">
+                    <label for="notif10"> Jogos </label>
+
+                    <input type="checkbox" id="notif11" name="notif11" value="Educação">
+                    <label for="notif11"> Educação </label>
+
+                    <input type="checkbox" id="notif12" name="notif12" value="Viagem">
+                    <label for="notif12"> Viagem </label>
+
+                    <input type="checkbox" id="notif13" name="notif13" value="Empregos">
+                    <label for="notif13"> Empregos </label>
+
+                    <input type="checkbox" id="notif14" name="notif14" value="Moda e Estilo">
+                    <label for="notif14"> Moda e Estilo </label>
+
+                    <input type="checkbox" id="notif15" name="notif15" value="Li as regras">
+                    <label for="notif15"> Li as regras de cadastro e autorizo a criação do usuário </label>
+                </div>
+
+                <button type="button">Confirmar</button>
+                <button type="button">Retornar</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
